@@ -54,6 +54,25 @@ This is the only file you need to modify.
 1.  In the project's root directory, find the file `config.php.example`.
 2.  Make a copy of this file and rename it to `config.php`.
 3.  Open your new `config.php` and edit the following lines with your Zabbix instance's data and, optionally, the path to your logo.
+4.  Set your PHP time zone in config.php
+   // Time zone for date/time handling in the report generator
+date_default_timezone_set('America/Santiago');  // change to your preferred TZ if needed
+5.  Add a “PDF Reporter” button to the Zabbix front-end menu
+
+File to edit: /usr/share/zabbix/include/classes/helpers/CMenuHelper.php
+
+Find this line: $submenu_reports = array_filter($submenu_reports);
+
+Paste the following block right above that line:
+
+$submenu_reports[] = CWebUser::checkAccess(CRoleHelper::UI_REPORTS_SYSTEM_INFO)
+    ? (new CMenuItem(_('Informe PDF')))  // or _('PDF Report') if you prefer English
+        ->setUrl(new CUrl('zabbix-pdf-report/login.php'), true)
+        ->setId('report_pdf')
+        // IMPORTANT: use setAliases() (plural), not setAlias()
+        ->setAliases(['zabbix-pdf-report/chooser.php'])
+    : null;
+ 6. Restart httpd
 
 ```php
 <?php
