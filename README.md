@@ -63,7 +63,7 @@ File to edit: /usr/share/zabbix/include/classes/helpers/CMenuHelper.php
 
 Find this line: $submenu_reports = array_filter($submenu_reports);
 
-Paste the following block right above that line:
+Paste the following block right above that line save and restart httpd:
 
 $submenu_reports[] = CWebUser::checkAccess(CRoleHelper::UI_REPORTS_SYSTEM_INFO)
     ? (new CMenuItem(_('Informe PDF')))  // or _('PDF Report') if you prefer English
@@ -72,7 +72,6 @@ $submenu_reports[] = CWebUser::checkAccess(CRoleHelper::UI_REPORTS_SYSTEM_INFO)
         // IMPORTANT: use setAliases() (plural), not setAlias()
         ->setAliases(['zabbix-pdf-report/chooser.php'])
     : null;
- 6. Restart httpd
 
 ```php
 <?php
