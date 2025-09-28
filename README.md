@@ -38,7 +38,7 @@ A simple and powerful web tool to select Zabbix items and export their historica
 * **Open Source License:** Protected under the GNU GPLv3 license to ensure the software and its derivatives remain free.
 
 ---
-
+URL Login: http://your-zabbix/zabbix/zabbix-pdf-report/login.php
 ## 🚀 Quick Setup
 
 To get the application working on your own Zabbix server, you only need to follow two steps:
