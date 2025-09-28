@@ -88,7 +88,8 @@ define('ZABBIX_URL', 'http://your-zabbix.com/zabbix');
  * You usually don't need to change this line.
  */
 define('ZABBIX_API_URL', ZABBIX_URL . '/api_jsonrpc.php');
-
+define('ZABBIX_API_USER', 'Admin');   // Nombre de usuario de la API
+define('ZABBIX_API_PASS', 'zabbix');  // Contraseña del usuario de la API
 /**
  * (Optional) Path to the custom logo.
  * To use your own logo, uncomment this line and set the path to your image file.
