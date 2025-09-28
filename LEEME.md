@@ -18,7 +18,7 @@ Una herramienta web sencilla y potente para seleccionar ítems de Zabbix y expor
 * **Licencia Open Source:** Protegido bajo la licencia GNU GPLv3.
 
 ---
-
+URL Login: http://tu-zabbix/zabbix/zabbix-pdf-report/login.php
 ## Configuración Rápida
 
 Para que la aplicación funcione en tu propio servidor Zabbix, solo necesitas seguir dos pasos:
