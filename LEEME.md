@@ -49,7 +49,7 @@ $submenu_reports[] = CWebUser::checkAccess(CRoleHelper::UI_REPORTS_SYSTEM_INFO)
           // aquí reemplaza setAlias() por setAliases()
           ->setAliases(['zabbix-pdf-report/chooser.php'])
     : null;
---------------------------------------------------------------------------------------
+
 
 ```php
 <?php
