@@ -7,8 +7,11 @@
   <a href="https://paypal.me/axel250r">
     <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white">
   </a>
-  <a href="https://github.com/axel250r/zabbix-pdf-report-6.0">
-    <img alt="Star this repo" src="https://img.shields.io/badge/Star%20this-Repo-24292e?logo=github&logoColor=white">
+  <a href="https://github.com/axel250r/zabbix-pdf-report-6.0/stargazers">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/axel250r/zabbix-pdf-report-6.0.svg?style=social&logo=github&v=3">
+  </a>
+  <a href="https://www.linkedin.com/in/axel-del-canto-del-canto-4ba643186/">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Axel%20Del%20Canto-0A66C2?logo=linkedin&logoColor=white">
   </a>
 </p>
 
