@@ -8,7 +8,7 @@
     <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white">
   </a>
   <a href="https://github.com/axel250r/zabbix-pdf-report-6.0/stargazers">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/axel250r/zabbix-pdf-report-6.0?style=social&logo=github&v=1">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/axel250r/zabbix-pdf-report-6.0.svg?style=social&logo=github&cacheSeconds=60&v=3">
   </a>
 </p>
 
