@@ -34,8 +34,9 @@ Este es el único archivo que necesitas modificar.
 1.  En la raíz del proyecto, busca el archivo `config.php.example`.
 2.  Haz una copia de este archivo y renómbrala a `config.php`.
 3.  Abre tu nuevo `config.php` y edita las siguientes líneas:
-4.  Si deseas agregar el boton de PDF Reporter en el front de Zabbix debes hacer lo siguiente:
-
+4.  No olvides modificar tu Time Zone en el mismo archivo config.php al final de este
+5.  Si deseas agregar el boton de PDF Reporter en el front de Zabbix debes hacer lo siguiente:
+   
 Editar /usr/share/zabbix/include/classes/helpers/CMenuHelper.php
 
 Buscar esta linea: $submenu_reports = array_filter($submenu_reports);
