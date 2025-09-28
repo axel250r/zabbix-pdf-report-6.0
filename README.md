@@ -7,8 +7,8 @@
   <a href="https://paypal.me/axel250r">
     <img alt="Donate" src="https://img.shields.io/badge/Donate-PayPal-00457C?logo=paypal&logoColor=white">
   </a>
-  <a href="https://github.com/axel250r/zabbix-pdf-report-updated/stargazers">
-    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/axel250r/zabbix-pdf-report-updated?style=social&logo=github&v=1">
+  <a href="https://github.com/axel250r/zabbix-pdf-report-6.0/stargazers">
+    <img alt="GitHub Stars" src="https://img.shields.io/github/stars/axel250r/zabbix-pdf-report-6.0?style=social&logo=github&v=1">
   </a>
 </p>
 
